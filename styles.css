@@ -1,67 +1,159 @@
-.main_container{
-    margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
-    box-sizing: border-box;
-    padding: 0.5in; /* controls margins */
-    width: 8.5in;
-    height: 11in;
-    background-color: white;
-    box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
-
+.main_container {
+  margin: 0 auto; /* for centering, feel free to use flexbox or some other method*/
+  box-sizing: border-box;
+  padding: 0.5in; /* controls margins */
+  width: 8.5in;
+  height: 11in;
+  background-color: black;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
 }
-#container{
-    display: flex;
-}
+#container {
+  display: flex;
+  }
 
-#box1{
-    border: 1px solid black;
-    width: 500px;
-    background-color: antiquewhite;
-    display: flex;
+.user-img{
+    display: block;
+    width: 100px;
+    margin-top:20px;
+    margin-left: 10px ;
+    margin-right: auto ;
+    border-radius: 50%;
     
+}
+
+#box1 {
+  width: 500px;
+  background-color: rgb(69, 66, 66);
+  display: flex;
+  font-size: 12px;
+  }
+
+#box {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#box2 {
+   width: 500px;
+  background-color: rgb(69, 66, 66);
+  font-size: 12px;
+  padding: 9px;
+}
+
+/* this is box three */
+#box3 {
+  border: 1px solid black;
+  width: 719px;
+  height: 70px;
+  background-color: rgb(69, 66, 66);
+  display: flex;
+  text-align: center;
   
 }
 
-#box{
+#container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#box4 {
+  border: 1px solid black;
+  width: 300px;
+  height: 700px;
+  background-color: rgb(69, 66, 66);
+  padding-right: 100px;
+  
+}
+
+#employment{
+  border: 1px solid;
+  display: block;
+    width: 300px;
+    height:40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 8px;
     text-align: center;
-    
+  }
+
+#h3{
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: auto;
 }
 
-#box2{
-    border: 1px solid black;
-    width: 500px;
-    background-color: antiquewhite;
-    font-size: 12px;
-    }
-
-
-    /* this is box three */
-#box3{
-    border: 1px solid black;
-    width: 719px;
-    height: 70px;
-    background-color: antiquewhite;
-    display:flex;
+#h33{
+  padding-left: 30px;
+  margin-top: -35px;
+  display: flex;
+  font-size: 12px;
 }
 
-#container2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    }
-
-#box4{
-    border: 1px solid black;
-    width: 380px;
-    height: 600px;
-    background-color: antiquewhite;
-    }
-
-#box5{
-    border: 1px solid black;
-    width: 380px;
-    height: 600px;
-    background-color: antiquewhite;
+#p{
+  margin-left: 30px;
+  margin-top: -20px;
+  display: flex;
 }
 
-   
+#education{
+
+  border: 1px solid;
+  display: block;
+    width: 300px;
+    height:40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 8px;
+    text-align: center;
+
+}
+
+#bio {
+
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+#design{
+  padding-left: 30px;
+  margin-top: -35px;
+  display: flex;
+  font-size: 12px;
+}
+
+#Lorem{
+  margin-left: 30px;
+  margin-top: -20px;
+  display: flex;
+  
+}
+
+
+
+
+#box5 {
+  border: 1px solid black;
+  width: 380px;
+  height: 600px;
+  background-color: rgb(69, 66, 66);
+}
+
+.btn {
+  margin: 130px;
+  margin-top: auto;
+  padding: 8px;
+  
+}
+
 
